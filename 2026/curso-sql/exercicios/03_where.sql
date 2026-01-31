@@ -1,0 +1,7 @@
+-- CONSULTE OS CLIENTES COM MAIS DE 500 PONTOS
+
+SELECT * 
+
+FROM clientes
+
+WHERE qtdePontos >= 500
