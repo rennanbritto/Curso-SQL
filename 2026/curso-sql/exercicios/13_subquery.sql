@@ -12,3 +12,5 @@ WHERE t1.IdCliente IN (
     WHERE substr(DtCriacao, 1,10) = '2025-08-25'
 )
 AND substr(t1.DtCriacao,1,10) = '2025-08-29'
+
+-- versão melhorada em: 14_cte.sql
